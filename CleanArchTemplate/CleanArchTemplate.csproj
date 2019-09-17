@@ -223,6 +223,14 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\AccountDB.mdf" />
+    <Content Include="App_Data\AccountDB_log.ldf">
+      <DependentUpon>AccountDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="App_Data\HomeDB.mdf" />
+    <Content Include="App_Data\HomeDB_log.ldf">
+      <DependentUpon>HomeDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -286,7 +294,6 @@
     <Content Include="Common\Views\_LoginPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="BC\AccessControl\Account\Application\Interfaces\" />
     <Folder Include="BC\AccessControl\Account\Application\Services\Commands\" />
     <Folder Include="BC\AccessControl\Account\Application\Services\Queries\" />
