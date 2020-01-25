@@ -1,9 +1,5 @@
-﻿using System.Data.Entity;
-using System.Security.Claims;
-using System.Threading.Tasks;
-using Microsoft.AspNet.Identity;
+﻿using CleanArchTemplate.BC.AccessControl.Account.Domain.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
-using CleanArchTemplate.BC.AccessControl.Account.Domain.Models;
 
 namespace CleanArchTemplate.BC.AccessControl.UOW
 {
